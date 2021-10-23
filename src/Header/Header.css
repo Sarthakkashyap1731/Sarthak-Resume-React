@@ -1,0 +1,10 @@
+.about {
+  width: 80%;
+  /* margin-left: -15em; */
+}
+.picture {
+  width: 20%;
+}
+.maindiv {
+  box-sizing: border-box;
+}

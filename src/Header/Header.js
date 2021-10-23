@@ -1,17 +1,18 @@
 import React from 'react';
+import './Header.css';
 
 function Header() {
   return (
-    <div class="jumbotron bg-light">
+    <div class="jumbotron bg-light main">
       <div class="container">
-        <div class="row">
-        <div class="col-lg-4">
+        <div class="row maindiv">
+          <div class="col-lg-6  col-sm-2 col-md-2 picture">
             <img
               src="https://www.static-contents.youth4work.com/y4w/Images/UserThumbImage/160_160/20200522094033.png?v=20200522094033"
               alt="abc"
             />
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-6 col-sm-2 col-md-2 about">
             <h1 class="display-4 ">Sarthak Kashyap</h1>
             <p>
               Interested in the role of a Software Engineer where I can
@@ -20,7 +21,6 @@ function Header() {
               company where my skills are utilized in the maximum way possible.
             </p>
           </div>
-          
         </div>
 
         <hr class="my-4"></hr>
